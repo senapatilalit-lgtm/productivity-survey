@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Work Pressure & Productivity Survey 2026</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="card">
+<h1>Work Pressure & Productivity Survey 2026</h1>
+<p>Anonymous • 2 minutes</p>
+
+<form id="survey">
+<label>1. Profession</label>
+<select name="profession" required>
+<option>Sales</option><option>Marketing</option><option>HR</option>
+<option>Finance</option><option>IT</option><option>Operations</option>
+<option>Business Owner</option><option>Student</option><option>Other</option>
+</select>
+
+<label>2. Experience</label>
+<div>
+<input type="radio" name="exp" value="0-2" required>0-2
+<input type="radio" name="exp" value="3-5">3-5
+<input type="radio" name="exp" value="6-10">6-10
+<input type="radio" name="exp" value="10+">10+
+</div>
+
+<label>3. Tasks handled daily</label>
+<select name="tasks">
+<option>&lt;5</option><option>5-10</option><option>10-20</option><option>20+</option>
+</select>
+
+<label>4. Biggest work pressure (choose up to 3)</label>
+<div>
+<input type="checkbox" name="pressure" value="Follow-ups">Follow-ups
+<input type="checkbox" name="pressure" value="Meetings">Meetings
+<input type="checkbox" name="pressure" value="Phone Calls">Phone Calls
+<input type="checkbox" name="pressure" value="Last Minute">Last Minute Work
+<input type="checkbox" name="pressure" value="Planning">Poor Planning
+<input type="checkbox" name="pressure" value="Email">Email Overload
+</div>
+
+<label>5. Which describes you?</label>
+<select name="profile">
+<option>Finish everything on time</option>
+<option>Finish important work</option>
+<option>Carry work to next day</option>
+<option>Always behind schedule</option>
+</select>
+
+<label>6. Most productive time</label>
+<select name="time">
+<option>Early Morning</option><option>Morning</option>
+<option>Afternoon</option><option>Evening</option><option>Night</option>
+</select>
+
+<label>7. How do you remember work?</label>
+<select name="track">
+<option>Memory</option><option>Notebook</option><option>Calendar</option>
+<option>WhatsApp</option><option>Email</option><option>Task App</option>
+</select>
+
+<label>8. Biggest stress</label>
+<select name="stress">
+<option>Forget important work</option>
+<option>Miss deadlines</option>
+<option>Too many tasks</option>
+<option>Unexpected work</option>
+<option>Waiting for others</option>
+<option>Don't know where to start</option>
+</select>
+
+<label>9. What do you do first on a busy day?</label>
+<select name="first">
+<option>Easiest work</option>
+<option>Urgent work</option>
+<option>Biggest work</option>
+<option>Messages</option>
+<option>Manager request</option>
+</select>
+
+<label>10. End of day feeling</label>
+<select name="feeling">
+<option>Satisfaction</option>
+<option>Relief</option>
+<option>Could do more</option>
+<option>Frustration</option>
+<option>Mental exhaustion</option>
+</select>
+
+<label>11. What improves productivity most?</label>
+<select name="improve">
+<option>Planning</option><option>Fewer interruptions</option>
+<option>Clear priorities</option><option>Communication</option>
+<option>Work-life balance</option><option>Better tools</option>
+</select>
+
+<label>12. How often do you check pending work?</label>
+<select name="check">
+<option>Once/day</option><option>Multiple/day</option>
+<option>Only when reminded</option><option>Whenever I remember</option>
+<option>Rarely</option>
+</select>
+
+<label>13. What should become easier?</label>
+<select name="need">
+<option>Planning</option>
+<option>Remembering follow-ups</option>
+<option>Finishing on time</option>
+<option>Reducing stress</option>
+<option>Prioritizing tasks</option>
+</select>
+
+<button type="submit">Submit</button>
+</form>
+<div id="msg"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
